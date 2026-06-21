@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mo Rahmani — analytical tools and resources for quantitative research, backtesting, and financial data.">
+  <title>Analytical Tools — Mo Rahmani</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>M</text></svg>">
+</head>
+<body>
+  <nav class="site-nav" aria-label="Site navigation">
+    <div class="wrap nav-inner">
+      <a class="nav-logo" href="index.html">Mo Rahmani</a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Portfolio</a>
+        <a href="tools.html" class="nav-link active">Analytical Tools</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="wrap">
+    <header class="site-header">
+      <h1>Analytical Tools</h1>
+      <p class="tagline">
+        A curated collection of resources for quantitative research, data exploration, and systematic trading.
+      </p>
+    </header>
+
+    <main>
+
+      <!-- Data & Macro -->
+      <section id="data">
+        <h2>Data &amp; macro</h2>
+        <div class="projects">
+
+          <article class="project-card tool-card">
+            <div class="tool-header">
+              <h3>FRED Economic Data</h3>
+              <a class="tool-link" href="https://fred.stlouisfed.org" target="_blank" rel="noopener noreferrer">Open →</a>
+            </div>
+            <p>Federal Reserve Bank of St. Louis. 800,000+ economic time series — rates, yields, employment, inflation, FX. Free API available.</p>
+            <div class="tags">
+              <span class="tag">Macro</span>
+              <span class="tag">Free API</span>
+              <span class="tag">Time series</span>
+            </div>
+          </article>
+
+          <article class="project-card tool-card">
+            <div class="tool-header">
+              <h3>Yahoo Finance</h3>
+              <a class="tool-link" href="https://finance.yahoo.com" target="_blank" rel="noopener noreferrer">Open →</a>
+            </div>
+            <p>Broad universe of equities, ETFs, FX, and futures data accessible via <code>yfinance</code> Python library. Excellent for rapid data collection.</p>
+            <div class="tags">
+              <span class="tag">Equities</span>
+              <span class="tag">FX</span>
+              <span class="tag">yfinance</span>
+            </div>
+          </article>
+
+          <article class="project-card tool-card">
+            <div class="tool-header">
+              <h3>Nasdaq Data Link (Quandl)</h3>
+              <a class="tool-link" href="https://data.nasdaq.com" target="_blank" rel="noopener noreferrer">Open →</a>
+            </div>
+            <p>Financial, economic, and alternative data marketplace. Includes futures, options, and premium datasets with a clean Python API.</p>
+            <div class="tags">
+              <span class="tag">Futures</span>
+              <span class="tag">Alternative data</span>
+              <span class="tag">API</span>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Backtesting & Research -->
+      <section id="backtesting">
+        <h2>Backtesting &amp; research libraries</h2>
+        <div class="projects">
+
+          <article class="project-card tool-card">
+            <div class="tool-header">
+              <h3>VectorBT</h3>
+              <a class="tool-link" href="https://vectorbt.dev" target="_blank" rel="noopener noreferrer">Open →</a>
+            </div>
+            <p>High-performance backtesting library built on NumPy and Pandas. Vectorized operations make large-scale signal sweeps fast. Excellent for parameter search and portfolio simulation.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Vectorized</span>
+              <span class="tag">Portfolio sim</span>
+            </div>
+          </article>
+
+          <article class="project-card tool-card">
+            <div class="tool-header">
+              <h3>QuantStats</h3>
+              <a class="tool-link" href="https://github.com/ranaroussi/quantstats" target="_blank" rel="noopener noreferrer">Open →</a>
+            </div>
+            <p>Portfolio analytics and risk reporting in Python. Generates tearsheets with Sharpe, Sortino, drawdowns, rolling metrics, and benchmarked performance — one function call.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Tearsheet</span>
+              <span class="tag">Risk metrics</span>
+            </div>
+          </article>
+
+          <article class="project-card tool-card">
+            <div class="tool-header">
+              <h3>OpenBB Terminal</h3>
+              <a class="tool-link" href="https://openbb.co" target="_blank" rel="noopener noreferrer">Open →</a>
+            </div>
+            <p>Open-source investment research platform. Covers equities, macro, crypto, and alternatives with a unified Python SDK and interactive terminal.</p>
+            <div class="tags">
+              <span class="tag">Research platform</span>
+              <span class="tag">Open source</span>
+              <span class="tag">SDK</span>
+            </div>
+          </article>
+
+          <article class="project-card tool-card">
+            <div class="tool-header">
+              <h3>QuantLib</h3>
+              <a class="tool-link" href="https://www.quantlib.org" target="_blank" rel="noopener noreferrer">Open →</a>
+            </div>
+            <p>Industry-standard open-source library for quantitative finance. Pricing models for fixed income, derivatives, and risk management. Python bindings via <code>QuantLib-Python</code>.</p>
+            <div class="tags">
+              <span class="tag">Derivatives</span>
+              <span class="tag">Fixed income</span>
+              <span class="tag">Pricing</span>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Visualisation & Charting -->
+      <section id="viz">
+        <h2>Visualisation &amp; charting</h2>
+        <div class="projects">
+
+          <article class="project-card tool-card">
+            <div class="tool-header">
+              <h3>TradingView Charts</h3>
+              <a class="tool-link" href="https://www.tradingview.com" target="_blank" rel="noopener noreferrer">Open →</a>
+            </div>
+            <p>Best-in-class browser charting for FX, equities, and futures. Pine Script allows custom indicator prototyping directly in-browser before porting to Python.</p>
+            <div class="tags">
+              <span class="tag">Charting</span>
+              <span class="tag">FX</span>
+              <span class="tag">Pine Script</span>
+            </div>
+          </article>
+
+          <article class="project-card tool-card">
+            <div class="tool-header">
+              <h3>Plotly / Dash</h3>
+              <a class="tool-link" href="https://plotly.com/python" target="_blank" rel="noopener noreferrer">Open →</a>
+            </div>
+            <p>Interactive Python charting library. Excellent for equity curve visualisation, drawdown charts, and parameter heatmaps. Dash extends it to full browser-based dashboards.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Interactive</span>
+              <span class="tag">Dashboard</span>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Coming soon -->
+      <section id="custom">
+        <h2>Custom tools <span class="badge-coming">Coming soon</span></h2>
+        <p>
+          Interactive tools built for this site — no installation required, runs in the browser.
+        </p>
+        <div class="projects">
+
+          <article class="project-card tool-card tool-card-soon">
+            <div class="tool-header">
+              <h3>Walk-forward backtest calculator</h3>
+              <span class="soon-label">In development</span>
+            </div>
+            <p>Upload a signal CSV, configure rolling OOS parameters, and get an instant equity curve with key performance metrics.</p>
+            <div class="tags">
+              <span class="tag">Browser-based</span>
+              <span class="tag">Rolling OOS</span>
+              <span class="tag">CSV input</span>
+            </div>
+          </article>
+
+          <article class="project-card tool-card tool-card-soon">
+            <div class="tool-header">
+              <h3>FX volatility &amp; correlation explorer</h3>
+              <span class="soon-label">In development</span>
+            </div>
+            <p>Real-time cross-pair correlation heatmap and rolling volatility chart using live Yahoo Finance data.</p>
+            <div class="tags">
+              <span class="tag">Browser-based</span>
+              <span class="tag">FX pairs</span>
+              <span class="tag">Live data</span>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Mo Rahmani · <a href="https://morahmani.com">morahmani.com</a></p>
+    </footer>
+  </div>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
