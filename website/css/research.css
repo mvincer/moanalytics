@@ -1,0 +1,234 @@
+/* Research page supplemental styles */
+
+.research-header .breadcrumb {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: 0.85rem;
+}
+
+.research-header .breadcrumb a {
+  color: var(--text-muted);
+}
+
+.research-header .breadcrumb a:hover {
+  color: var(--accent);
+}
+
+.research-body {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+/* Table of contents */
+
+.toc {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: inline-block;
+  min-width: 220px;
+}
+
+.toc-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  margin: 0 0 0.65rem;
+}
+
+.toc ol {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.toc li {
+  margin-bottom: 0.35rem;
+}
+
+.toc a {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.toc a:hover {
+  color: var(--accent);
+}
+
+/* Section headings in research */
+
+.research-body section h2 {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.research-body section h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 1.25rem 0 0.5rem;
+}
+
+/* Callout boxes */
+
+.callout {
+  margin: 1.25rem 0;
+  padding: 0.9rem 1.1rem;
+  background: var(--bg-card);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.callout-warn {
+  border-left-color: #e6a23c;
+}
+
+/* Ordered steps */
+
+.method-steps {
+  padding-left: 1.5rem;
+  margin: 0.75rem 0 1.25rem;
+}
+
+.method-steps li {
+  margin-bottom: 0.6rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.method-steps strong {
+  color: var(--text);
+}
+
+/* Parameter grid */
+
+.param-grid {
+  margin: 0.75rem 0 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.param-row {
+  display: flex;
+  gap: 1rem;
+  padding: 0.55rem 1rem;
+  font-size: 0.875rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.param-row:last-child {
+  border-bottom: none;
+}
+
+.param-row:nth-child(even) {
+  background: var(--bg-elevated);
+}
+
+.param-name {
+  min-width: 160px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.param-val {
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 0.83rem;
+}
+
+/* Model table */
+
+.model-table-wrap {
+  overflow-x: auto;
+  margin: 0.75rem 0 1.25rem;
+}
+
+.model-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.model-table th {
+  text-align: left;
+  padding: 0.55rem 0.9rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.model-table td {
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  vertical-align: top;
+}
+
+.model-table tr:nth-child(even) td {
+  background: var(--bg-elevated);
+}
+
+.model-table code {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+}
+
+/* Diagrams */
+
+.diagram-wrap {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.pipeline-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.diagram-wrap figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* code inline */
+code {
+  font-family: var(--mono);
+  font-size: 0.83em;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+  color: var(--accent);
+}
+
+@media (max-width: 560px) {
+  .param-name {
+    min-width: 120px;
+  }
+}

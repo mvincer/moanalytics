@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mo Rahmani — quantitative researcher focused on systematic FX forecasting, backtesting, and portfolio research.">
+  <title>Mo Rahmani — Quantitative Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>M</text></svg>">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <h1>Mo Rahmani</h1>
+      <p class="tagline">
+        Quantitative researcher — systematic FX forecasting, rigorous backtesting, and research infrastructure.
+      </p>
+      <nav class="links-row" aria-label="Primary links">
+        <!-- Update href values below with your real URLs -->
+        <a class="btn btn-primary" href="assets/resume.pdf" download>Resume (PDF)</a>
+        <a class="btn" href="https://linkedin.com/in/mo-rahmani-cfa-ma-ms" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="btn" href="https://github.com/mvincer" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn" href="research.html">Research note</a>
+        <a class="btn" href="mailto:mr.mh.rahmani@gmail.com">Email</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I build end-to-end quantitative research pipelines: from raw market and macro data
+          through feature engineering, rolling out-of-sample model evaluation, and portfolio-level
+          analysis. My work emphasizes reproducible backtests, explicit risk overlays, and
+          communication of methodology — not black-box performance claims.
+        </p>
+        <p>
+          Currently focused on multi-timeframe FX directional forecasting (daily through intraday),
+          expanded-universe backtests, and integrated research dashboards for signal monitoring
+          and production workflows.
+        </p>
+      </section>
+
+      <section id="principles">
+        <h2>Research principles</h2>
+        <ul class="principles">
+          <li>Out-of-sample evaluation first — rolling holdout and walk-forward protocols, not in-sample fit.</li>
+          <li>Transparent data lineage — versioned parquet pipelines, manifest reports, reproducible run scripts.</li>
+          <li>Risk-aware framing — stop-loss overlays, transaction-cost sensitivity, and clear limitation statements.</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Selected research</h2>
+        <div class="projects">
+
+          <article class="project-card">
+            <h3>Non-linear FX directional forecasting</h3>
+            <p>
+              Multi-timeframe binary and ternary classification on FX pairs using merged
+              macro fundamentals (FRED), technical features, and cross-pair context columns.
+              Rolling OOS tuning with batch holdout sweeps across daily, weekly, hourly, and 4-hour bars.
+            </p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Rolling OOS</span>
+              <span class="tag">Parquet pipeline</span>
+              <span class="tag">H1 / H4 / Daily</span>
+            </div>
+            <p style="margin-top:0.85rem;margin-bottom:0;"><a href="research.html">Read methodology →</a></p>
+          </article>
+
+          <article class="project-card">
+            <h3>FX data repository &amp; model inputs</h3>
+            <p>
+              Automated collection of FX OHLC (FXCM + Yahoo tail fill), FRED macro panel,
+              and aligned fundamentals/technicals for modeling. Manifest-driven reporting
+              for series coverage, date spans, and failure diagnostics.
+            </p>
+            <div class="tags">
+              <span class="tag">FRED API</span>
+              <span class="tag">Yahoo Finance</span>
+              <span class="tag">Feature engineering</span>
+              <span class="tag">ETL</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Portfolio &amp; stop-loss overlay research</h3>
+            <p>
+              Batch export sweeps with stop-loss overlay analysis across expanded FX and
+              non-FX universes. Portfolio preview workflows combining multi-timeframe signals
+              with explicit risk constraints for research review.
+            </p>
+            <div class="tags">
+              <span class="tag">Backtesting</span>
+              <span class="tag">Risk overlay</span>
+              <span class="tag">Multi-asset</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Integrated forecasting dashboard</h3>
+            <p>
+              Streamlit-based research workspace unifying FX forecast signals, data refresh
+              controls, and cross-asset analytics modules — designed for daily research
+              workflows and operational monitoring.
+            </p>
+            <div class="tags">
+              <span class="tag">Streamlit</span>
+              <span class="tag">Research ops</span>
+              <span class="tag">Automation</span>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Tools &amp; methods</h2>
+        <div class="skills-grid">
+          <span class="skill">Python</span>
+          <span class="skill">pandas / NumPy</span>
+          <span class="skill">scikit-learn</span>
+          <span class="skill">Time-series CV</span>
+          <span class="skill">Backtesting</span>
+          <span class="skill">Parquet / ETL</span>
+          <span class="skill">Macro data (FRED)</span>
+          <span class="skill">FX microstructure</span>
+          <span class="skill">PCA / factor analysis</span>
+          <span class="skill">PowerShell automation</span>
+          <span class="skill">Streamlit</span>
+          <span class="skill">Git</span>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Open to senior quantitative analyst and quant researcher roles in investment management.
+          Reach me at <a href="mailto:mr.mh.rahmani@gmail.com">mr.mh.rahmani@gmail.com</a> or via
+          <a href="https://linkedin.com/in/mo-rahmani-cfa-ma-ms" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Mo Rahmani · <a href="https://morahmani.com">morahmani.com</a></p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
