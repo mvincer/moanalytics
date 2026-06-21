@@ -3,9 +3,6 @@ name: Deploy morahmani.com
 on:
   push:
     branches: [main, master]
-    paths:
-      - "website/**"
-      - ".github/workflows/deploy-website.yml"
   workflow_dispatch:
 
 permissions:
@@ -25,6 +22,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          node-version: 24
 
       - uses: actions/upload-pages-artifact@v3
         with:
