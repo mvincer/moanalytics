@@ -12,15 +12,6 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>M</text></svg>">
 </head>
 <body>
-  <nav class="site-nav" aria-label="Site navigation">
-    <div class="wrap nav-inner">
-      <a class="nav-logo" href="index.html">Mo Rahmani</a>
-      <div class="nav-links">
-        <a href="index.html" class="nav-link active">Portfolio</a>
-        <a href="tools.html" class="nav-link">Analytical Tools</a>
-      </div>
-    </div>
-  </nav>
   <div class="wrap">
     <header class="site-header">
       <h1>Mo Rahmani</h1>
@@ -32,6 +23,7 @@
         <a class="btn btn-primary" href="assets/resume.pdf" download>Resume (PDF)</a>
         <a class="btn" href="https://linkedin.com/in/mo-rahmani-cfa-ma-ms" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a class="btn" href="https://github.com/mvincer" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn" href="research.html">Research note</a>
         <a class="btn" href="mailto:mr.mh.rahmani@gmail.com">Email</a>
       </nav>
     </header>
@@ -65,6 +57,34 @@
         <h2>Selected research</h2>
         <div class="projects">
 
+          <article class="project-card project-card-featured">
+            <p class="project-label">Independent research study · September 2026</p>
+            <h3>US sector allocation by rate, inflation &amp; business cycle</h3>
+            <p>
+              Which US equity industries outperform under different macro regimes? Using Ken French
+              12 industry portfolios (Jun 1932 – Sep 2023), Shiller long interest rates, headline CPI,
+              and FRED industrial production, this study maps conditional sector returns across rate
+              direction, inflation level, and business-cycle phase — with historical episode review
+              (1970s stagflation, GFC, QE era, 2021–23 hiking cycle) and fundamental rationale.
+            </p>
+            <ul class="principles project-highlights">
+              <li>1,096-month sample with expanding-history regime thresholds (no look-ahead on level cuts)</li>
+              <li>Energy leads in high-CPI and rising-rate regimes (+4.7 to +5.1pp excess vs equal-weight)</li>
+              <li>NonDurables / Health Care best Sharpe when INDPRO contracts; Energy lags (−7.3pp)</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Ken French</span>
+              <span class="tag">Macro regimes</span>
+              <span class="tag">Sector allocation</span>
+              <span class="tag">Shiller</span>
+              <span class="tag">INDPRO</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn-primary" href="assets/studies/us-sector-regime-allocation.pdf" target="_blank" rel="noopener noreferrer">Read PDF</a>
+              <a class="btn" href="assets/studies/us-sector-regime-allocation.pdf" download>Download PDF</a>
+            </div>
+          </article>
+
           <article class="project-card">
             <h3>Non-linear FX directional forecasting</h3>
             <p>
@@ -78,6 +98,7 @@
               <span class="tag">Parquet pipeline</span>
               <span class="tag">H1 / H4 / Daily</span>
             </div>
+            <p style="margin-top:0.85rem;margin-bottom:0;"><a href="research.html">Read methodology →</a></p>
           </article>
 
           <article class="project-card">
@@ -147,6 +168,7 @@
       <section id="contact">
         <h2>Contact</h2>
         <p>
+          Open to senior quantitative analyst and quant researcher roles in investment management.
           Reach me at <a href="mailto:mr.mh.rahmani@gmail.com">mr.mh.rahmani@gmail.com</a> or via
           <a href="https://linkedin.com/in/mo-rahmani-cfa-ma-ms" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
         </p>
