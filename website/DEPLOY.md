@@ -8,7 +8,6 @@ Static site — no build step. Pick **one** host below and point DNS at it.
    - `YOUR-LINKEDIN` → your LinkedIn slug
    - `YOUR-GITHUB` → your GitHub username (or remove the button)
    - `you@email.com` → your email
-2. Drop your resume PDF at `assets/resume.pdf` (or change the Resume link).
 
 Preview locally: open `index.html` in a browser, or:
 
